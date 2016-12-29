@@ -1,0 +1,3 @@
+[submodule "utils-resolution"]
+	path = utils-resolution
+	url = https://github.com/gabrielfbarros/utils-resolution.git
