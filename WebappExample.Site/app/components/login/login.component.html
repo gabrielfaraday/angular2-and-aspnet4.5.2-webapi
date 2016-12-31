@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+		<h1>Gerenciador de Contatos</h1>
+        <form>
+			<div class="form-group">
+				<label for="userName">Usuário:</label>
+				<input name="userName" type="text" placeholder="Usuário" class="form-control"
+					required [(ngModel)]="user.userName" maxlength="20">
+			</div>
+			<div class="form-group">
+				<label for="password">Senha:</label>
+				<input name="password" type="password" placeholder="●●●●●" class="form-control"
+					required [(ngModel)]="user.password" maxlength="20">
+			</div>
+			<button class="btn btn-primary" (click)="login()">
+				<span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Login
+			</button>
+        </form>
+    </div>
+</div>
